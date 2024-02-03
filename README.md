@@ -1,2 +1,4 @@
-# bioSite
- Informatinal, Interview, Photos about peer.
+# CSD 340 Web Development with HTML and CSS
+## Contributors:
+- Sue Sampson
+- Erik Hernandez
