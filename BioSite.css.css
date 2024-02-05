@@ -1,0 +1,120 @@
+/* BioSite.css */
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: navy;
+    color: white;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+/* Styles for Landing Page */
+.landing-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    color: white;
+}
+
+.info-container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.image-container {
+    width: 50%;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: white;
+    color: navy;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    margin-right: 20px; /* Adjust spacing between buttons */
+}
+
+.btn:hover {
+    background-color: #f0f0f0; /* Change color on hover if needed */
+}
+
+.info-title {
+    color: black; /* Set title color to black */
+}
+
+.info-text {
+    color: black; /* Set text color to black */
+}
+
+.outside-buttons {
+    margin-top: 20px;
+}
+
+.inside-btn {
+    margin-top: 20px;
+}
+
+/* Styles for Who is Saul Davila? Page */
+.left-section {
+    width: 40%;
+}
+
+.right-section {
+    width: 55%;
+}
+
+.about-container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.images-container {
+    margin-bottom: 20px;
+}
+
+.images-container img {
+    width: 30%;
+    margin-right: 10px;
+}
+
+.categories {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.category {
+    flex: 1;
+    background-color: white;
+    padding: 10px;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+.learn-more {
+    text-align: center;
+}
+
+.learn-more a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: white;
+    color: navy;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+
