@@ -1,4 +1,4 @@
-/* BioSite.css */
+/* Erik Hernandez Assignment: Build a Webpage Exercise, Part 5 */
 
 body {
     margin: 0;
@@ -46,7 +46,7 @@ body {
 }
 
 .btn:hover {
-    background-color: #f0f0f0; /* Change color on hover if needed */
+    background-color: #f0f0f0; 
 }
 
 .info-title {
