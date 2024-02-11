@@ -1,4 +1,4 @@
-/* Reset CSS */
+/* Erik Hernandez, Development and GitHub Pages Deployment CSS */
 * {
     margin: 0;
     padding: 0;
@@ -9,7 +9,7 @@
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
-    background-color: #f4f4f4;
+    background-color: #0099CC;
     color: #333;
     margin: 0;
     padding: 0;
@@ -63,56 +63,23 @@ header p {
     padding: 0 20px;
 }
 
-.landing-container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px;
-    color: #fff;
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 20px;
 }
 
-.info-container {
-    background-color: #333;
+.grid-item {
+    background-color: #fff;
     padding: 20px;
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-.info-title {
-    font-size: 2em;
-    margin-bottom: 20px;
-}
-
-.info-text {
-    font-size: 1.2em;
-    margin-bottom: 20px;
-}
-
-.image-container {
-    width: 50%;
-}
-
-.outside-buttons {
-    margin-top: 20px;
-}
-
-.inside-btn {
-    margin-top: 20px;
-}
-
-.btn {
-    display: inline-block;
-    padding: 10px 20px;
-    background-color: #333;
-    color: #fff;
-    text-decoration: none;
+.grid-item img {
+    max-width: 100%;
+    height: auto;
     border-radius: 5px;
-    transition: background-color 0.3s ease;
-    margin-right: 20px;
-}
-
-.btn:hover {
-    background-color: #555;
 }
 
 /* Footer Styles */
